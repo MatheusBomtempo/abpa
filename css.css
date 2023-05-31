@@ -1,9 +1,10 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');
 
+  @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
   
   .anco:hover{
-    background-color: #c2bfbbb8;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.273);
     
 }
 .logo{
@@ -11,16 +12,16 @@
     
 }
 .anco{
-    padding: 5%;
     white-space: nowrap;
     border-radius: 13px;
-    
+    transition: 0.2s;
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 body {
 	font-family: 'Inter', sans-serif;
@@ -45,10 +46,12 @@ nav ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+    overflow-y: hidden;
+    display: flex;
 }
 
 nav ul li {
-	display: inline-block;
+	
 	margin-right: 20px;
 }
 
@@ -67,7 +70,7 @@ header {
 } */
 
 .hero {
-	height: 100vh;
+	height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,6 +80,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    z-index: 1;
 }
 
 
@@ -92,7 +96,7 @@ header {
     position: absolute;
     content: '';
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 
     background-image: url(fotos/Vector\ 1.svg);
     background-repeat: no-repeat;
@@ -103,18 +107,35 @@ header {
 .box1{
     z-index: 10;
     position: absolute;
-    top:50%;
-    left: 2%;
-}
-
-.btn{
-    padding: 8px 20px;
-    border-radius: 15px;
+    top:40%;
+    left: 7%;
+    width: 400px;
 
 }
 
 .box1 h1{
-    
+    font-size: 2.7rem;
+}
+
+.box1 h3{
+    font-size: 1.3rem;
+    padding: .3rem 0;
+}
+
+.box1 h4{
+    font-size: .8rem;
+    padding: 1rem 0;
+}
+
+.btn{
+    margin: 1rem 0 0 0;
+    font-size: 1.2rem;
+    padding: 8px 20px;
+    border-radius: 15px;
+}
+
+.box1 h1,.box1 h3, .box1 a{
+    font-family: epilogue, sans-serif;
 
 }
 .hero .noblur{
@@ -168,6 +189,7 @@ header {
     padding: 20px 25px;
     max-width: 500px;
     border-radius: 20px;
+    white-space: nowrap;
 }
 
 .titulo2{
@@ -198,7 +220,10 @@ header {
     width: 100%;
     background-color: beige;
     padding: 20px 0;
+    box-shadow: -6px -3px 15px rgba(0, 0, 0, 0.477);
 }
+
+
 
 #proj{
     margin: 15px 0 10px 0;
