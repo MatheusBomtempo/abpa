@@ -1,6 +1,21 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');
 
+  
+  .anco:hover{
+    background-color: #c2bfbbb8;
+    
+}
+.logo{
+    mix-blend-mode: color-dodge
+    
+}
+.anco{
+    padding: 5%;
+    white-space: nowrap;
+    border-radius: 13px;
+    
+}
 
 *{
     padding: 0;
@@ -44,7 +59,7 @@ nav ul li a {
 
 header {
 	padding: 20px;
-    background-color: #FFC16B;
+    background-color: #e2c0a888;
 }
 
 /* section{
