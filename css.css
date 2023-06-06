@@ -184,12 +184,16 @@ header {
 }
 
 .box{
-    background-color: antiquewhite;
+    background-color: #FFE0B5;
     margin-top: 15px;
     padding: 20px 25px;
-    max-width: 500px;
+    max-width: 600px;
     border-radius: 20px;
-    white-space: nowrap;
+    display: -webkit-box;
+  -webkit-line-clamp: 3; /* Adjust the number of lines to display */
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .titulo2{
