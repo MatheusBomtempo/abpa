@@ -1,67 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
-  
-  .anco:hover{
+.anco:hover {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.273);
-    
+
 }
-.logo{
+
+:root {
+    --white: #ffffff;
+    --lightBG: #dce1df;
+    --salmon: #ff6666;
+    --marronzin: #e2c0a888;
+    --teal: #0096a0;
+    --tealMid: #0ebac7;
+    --tealContrast: #33ffff;
+    --tealShade: #007c85;
+
+    --darkGrey: #4f585e;
+}
+
+.logo {
     mix-blend-mode: color-dodge
-    
 }
-.anco{
+
+.anco {
     white-space: nowrap;
     border-radius: 13px;
     transition: 0.2s;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     overflow-x: hidden;
-}
-body {
-	font-family: 'Inter', sans-serif;
-	margin: 0;
-	padding: 0;
+    scroll-behavior: smooth;
 }
 
-header{
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.233);
     z-index: 9999;
     position: fixed;
     width: 100%;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 nav ul {
-	list-style: none;
-	margin: 0;
-	padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
     overflow-y: hidden;
     display: flex;
 }
 
 nav ul li {
-	
-	margin-right: 20px;
+
+    margin-right: 20px;
 }
 
 nav ul li a {
-	color: #333;
-	text-decoration: none;
+    color: #333;
+    text-decoration: none;
 }
 
 header {
-	padding: 20px;
+    padding: 20px;
     background-color: #e2c0a888;
 }
 
@@ -70,12 +85,12 @@ header {
 } */
 
 .hero {
-	height: 90vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(fotos/fotos\ abpa\ \(636\)\ -\ Copia.jpeg) no-repeat center center fixed; 
+    background: url(fotos/fotos\ abpa\ \(636\)\ -\ Copia.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -85,7 +100,7 @@ header {
 
 
 
-.hero::after{
+.hero::after {
     /* background: rgba(51, 51, 51, 0.199) no-repeat center center fixed;
     backdrop-filter: blur(1px);
     position: absolute;
@@ -101,44 +116,47 @@ header {
     background-image: url(fotos/Vector\ 1.svg);
     background-repeat: no-repeat;
     background-position: left;
-    
+
 }
 
-.box1{
+.box1 {
     z-index: 10;
     position: absolute;
-    top:40%;
+    top: 40%;
     left: 7%;
     width: 400px;
 
 }
 
-.box1 h1{
+.box1 h1 {
     font-size: 2.7rem;
 }
 
-.box1 h3{
+.box1 h3 {
     font-size: 1.3rem;
     padding: .3rem 0;
 }
 
-.box1 h4{
+.box1 h4 {
     font-size: .8rem;
     padding: 1rem 0;
 }
 
-.btn{
+.btn {
     margin: 1rem 0 0 0;
     font-size: 1.2rem;
     padding: 8px 20px;
     border-radius: 15px;
 }
 
-.box1 h1,.box1 h3, .box1 a{
+.box1 h1,
+.box1 h3,
+.box1 a {
     font-family: epilogue, sans-serif;
 
 }
-.hero .noblur{
+
+.hero .noblur {
     z-index: 5;
     display: flex;
     align-items: center;
@@ -146,12 +164,12 @@ header {
     flex-direction: column;
     padding: 40px;
     background-color: aliceblue;
-    border-radius:20px;
+    border-radius: 20px;
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.253);
     transition: 0.5s;
 }
 
-.hero .noblur button{
+.hero .noblur button {
     margin-top: 0.5rem;
     background-color: blueviolet;
     border-radius: 20px;
@@ -160,21 +178,25 @@ header {
     border: none;
     transition: 0.5s;
     cursor: pointer;
+    font-family: epilogue, sans-serif;
 }
 
-.hero .noblur button:hover{
+.hero .noblur button:hover {
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.253);
 }
 
-.hero .noblur button a{
+.hero .noblur button a {
     text-decoration: none;
     color: aliceblue;
     font-size: 1.2rem;
-    font-family: 'Inter', sans-serif;}
+    font-family: 'Inter', sans-serif;
+}
 
-.titulo{
-    margin-bottom: 0.4rem;
+.titulo {
+    margin:2rem 0 1rem 0;
     font-size: 2rem;
+    text-align: center;
+    font-family: epilogue, sans-serif;
 }
 
 .sub {
@@ -183,69 +205,150 @@ header {
     text-align: center;
 }
 
-.box{
-    background-color: #FFE0B5;
+.box {
+    background-color: antiquewhite;
     margin-top: 15px;
     padding: 20px 25px;
-    max-width: 600px;
+    max-width: 500px;
     border-radius: 20px;
-    display: -webkit-box;
-  -webkit-line-clamp: 3; /* Adjust the number of lines to display */
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
-  overflow: hidden;
-}
-
-.titulo2{
-    font-size: 1.5rem;
-}
-
-.descricao{
-    margin: 10px 0 10px 0;
-    font-size: 0.9rem;
+    white-space: nowrap;
 }
 
 
-.descricao2{
-    margin: 10px 0 10px 0;
-    font-size: 0.9rem;
-    width: 700px;
+
+/* cards */
+
+
+:root {
+    --gray-darker: #444444;
+    --gray-dark: #696969;
+    --gray: #999999;
+    --gray-light: #cccccc;
+    --gray-lighter: #ececec;
+    --gray-lightest: lighten(var(--gray-lighter), 4%);
 }
 
-.pag2 ul li {
+
+.pag2 img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.pag2 .btn {
+    background-color: white;
+    border: 1.5px solid var(--gray);
+    border-radius: 1rem;
+    color: var(--gray-dark);
+    padding: 0.5rem;
+    text-transform: capitalize;
+    font-family: epilogue, sans-serif;
+}
+
+.pag2 .btn--block {
+    display: block;
+    width: 100%;
+}
+
+.pag2 .cards {
+    display: flex;
+    flex-wrap: wrap;
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pag2 .cards__item {
+    display: flex;
+    padding: 1rem;
+
+    @media(min-width: 40rem) {
+        width: 50%;
+    }
+
+    @media(min-width: 56rem) {
+        width: 33.3333%;
+    }
 }
 
 .pag2{
+    margin: 0 12%;
+}
+
+.pag2 .card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 100%;
-    background-color: beige;
-    padding: 20px 0;
-    box-shadow: -6px -3px 15px rgba(0, 0, 0, 0.477);
+    overflow: hidden;
+}
+
+.pag2.card:hover .card__image{
+    filter: contrast(100%);
 }
 
 
-
-#proj{
-    margin: 15px 0 10px 0;
+.pag2 .card__content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
 }
 
-.grid{
-    display: grid;
-    justify-content: center;
-    flex-wrap: wrap;
-    grid-template-columns: repeat(3, minmax(100px, 200px));
-    grid-gap: 40px;
+.pag2 .card__image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    filter: contrast(70%);
+    filter: saturate(180%);
+    overflow: hidden;
+    position: relative;
+    transition: filter 0.5s cubic-bezier(.43, .41, .22, .91);
+    ;
+
+    &::before {
+        content: "";
+        display: block;
+        padding-top: 56.25%; 
+    }
+
+    @media(min-width: 40rem) {
+        &::before {
+            padding-top: 66.6%; 
+        }
+    }
 }
 
-#sobre{
-    background-color: aliceblue;
-    box-shadow:  52px;
+.pag2 card__image--flowers2 {
+    background-image: url(/fotos/fotos\ abpa\ \(636\)\ -\ Copia.jpeg);
 }
 
-#contato{
-    background-color: aliceblue;
+.pag2 .card__image--river {
+    background-image: url(fotos/fotos\ abpa\ \(678\).jpeg);
+}
+
+.pag2 .card__image--record {
+    background-image: url(fotos/fotos\ abpa\ \(705\).jpeg);
+}
+
+.pag2 .card__image--fence {
+    background-image: url(fotos/fotos\ abpa\ \(714\).jpeg);
+}
+
+.pag2 .card__title {
+    color: var(--gray-dark);
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.pag2 .card__text {
+    flex: 1 1 auto;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
 }
