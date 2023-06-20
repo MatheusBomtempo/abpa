@@ -1,13 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');
 .anco{
-    padding: 5%;
     white-space: nowrap;
     border-radius: 13px;
-    
+    transition: 0.2s;
 }
+    
 .anco:hover{
-    background-color: #c2bfbbb8;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.273);
     
 }
 
@@ -144,17 +144,7 @@ header {
     font-size: 1.5rem;
 }
 
-.descricao{
-    margin: 10px 0 10px 0;
-    font-size: 0.9rem;
-}
 
-
-.descricao2{
-    margin: 10px 0 10px 0;
-    font-size: 0.9rem;
-    width: 700px;
-}
 
 .pag2 ul li {
     list-style: none;
