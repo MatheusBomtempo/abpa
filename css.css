@@ -142,7 +142,7 @@ header {
     padding: 1rem 0;
 }
 
-.btn {
+.btnNative {
     margin: 1rem 0 0 0;
     font-size: 1.2rem;
     padding: 8px 20px;
@@ -352,3 +352,13 @@ header {
     line-height: 1.5;
     margin-bottom: 1.25rem;
 }
+
+.pag3{
+   margin: 15%; 
+}
+
+.pag3{
+    padding: 10px;
+    line-height: 1.9;
+}
+
