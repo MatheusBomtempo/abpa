@@ -10,11 +10,23 @@
 		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.min.css">
+	<script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector("header nav ul").style.display == "flex"){
+                    document.querySelector("header nav ul").style.display = "none";
+                }
+                else { 
+                    document.querySelector("header nav ul").style.display = "flex";
+                }
+            });
+        };
+    </script>
 </head>
 
 <body>
 	<header>
-		<nav>
+		<nav >
 			<a href=""><img src="logo.png" alt="" width="60px"></a>
 			<ul>
 				<li><a href="#inicio" class=anco>Início</a></li>
@@ -23,7 +35,20 @@
 				<li><a href="#doacao" class=anco>Doações</a></li>
 				<li><a href="#contato" class=anco>Contato</a></li>
 			</ul>
+			<div class="menu_mobile">
+				<div class="mmline">
+					
+				</div>
+				<div class="mmline">
+					
+				</div>
+				<div class="mmline">
+					
+				</div>
+			</div>
 		</nav>
+
+		
 	</header>
 
 
