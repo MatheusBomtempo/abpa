@@ -24,7 +24,8 @@
     align-items: center;
     justify-content: center;
     border-bottom: 1px solid #000;
-    border-radius: 3%;
+    border-radius: 1%;
+    padding:1px;
 }
 .logos .img{
     padding: 2%;
@@ -571,8 +572,8 @@ header {
     filter: saturate(180%);
     box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.164);
     margin: 50px;
-    width: 30vw;
-    height: 30vh;
+    width: 40vw;
+    height: 40vh;
     display: flex;
     
     align-items: center;
@@ -587,8 +588,8 @@ header {
     
 }
 .logos:hover{
-    border: 2px solid #72513d;
-    border-radius: 20px; 
+    border: 1px solid black;
+    border-radius: 10px; 
 }
 .box32:hover{
     
