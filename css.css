@@ -203,11 +203,7 @@ header {
     width: 400px;
 
 }
-.box32{
-    flex: 1;
-    padding: 10px;
-    border: 1px solid black;
-}
+
 
 .box1 h1 {
     font-size: 2.7rem;
@@ -550,4 +546,50 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+}
+.container{
+    
+    display: flex;
+    
+    justify-content: center;
+    
+    
+    
+}
+
+#sla{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.box32{
+    background-color:white;
+    border-radius: 20px;
+    filter: contrast(70%);
+    filter: saturate(180%);
+    box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.164);
+    margin: 50px;
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+.boxtext{
+    margin:auto;
+    padding: 20px;
+    
+    
+}
+
+.box32:hover{
+    
+    border: 2px solid #ccc;
+    
+   
+
 }
