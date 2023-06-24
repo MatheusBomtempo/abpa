@@ -38,10 +38,17 @@
 
 
 .descricao2{
-    margin: 10px 0 10px 0;
     font-size: 0.9rem;
-    width: 700px;
+    text-align: center;
 }
+
+.descricao3{
+    font-size: 1.2rem;
+    text-align: center;
+    overflow-y: hidden;
+    padding: 15px;
+}
+
 :root {
     --white: #ffffff;
     --lightBG: #dce1df;
@@ -355,6 +362,7 @@ header {
 
 
 
+
 /* cards */
 
 
@@ -423,7 +431,7 @@ header {
 .pag2 .card {
     background-color: white;
     border-radius: 0.25rem;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.219);
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.137);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -499,12 +507,21 @@ header {
 }
 
 .pag3{
-   margin: 15%; 
+   margin: 4% 15%; 
+   padding: 20px;
+   line-height: 1.9;
+   background-color: #FFE0B5;
+   box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.164);
+   border-radius: 8px;
 }
 
-.pag3{
-    padding: 10px;
-    line-height: 1.9;
+.pag4{
+    background-color: #FFE0B5 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2% 0 10% 0;
 }
 
 
