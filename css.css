@@ -615,7 +615,8 @@ header {
     margin: auto;
 }
 
-@media (min-width: 320px) and (max-width: 375px) {
+
+@media (min-width: 375px) and (max-width: 425px) {
     *{
         overflow-x: hidden;
         
@@ -696,6 +697,7 @@ header {
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin: auto;
        
         
         
@@ -733,8 +735,178 @@ header {
     .boxtext{
         font-size: 70%;
     }
-    .contatos{
-        width: 70%;
+   
+    .heros{
+        margin: 2px;
+    }
+    .heros .noblur {
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px;
+        background-color: #F0DDD1;
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.253);
+        transition: 0.5s;
+        filter: contrast(70%);
+        filter: saturate(180%);
+    }
+   
+   
+}
+
+@media (min-width: 320px) and (max-width:376px) {
+    *{
+        overflow-x: hidden;
+        
+    }
+    .mmline{
+        background-color: #000;
+        width: 30px;
+        height: 4px;
+        display:block;
+        margin-top: 2px;
+        margin-right: 60px ;
+        
+    }
+
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        
+
+    }
+    .box32 img{
+        width: 30%;
+    }
+
+
+    
+    header nav ul{
+
+       
+        height: auto;
+        
+        
+       
+
+        
+     
+        
+    }
+    nav ul{
+        flex-direction: column;
+        
+        display: none;
+        
+        
+        width: 100%;
+        background-color: #fff;
+       
+        
+    }
+    .box1 h1 {
+        font-size: 120%;
+        
+    }
+    
+    .box1 h3 {
+        font-size: 85%;
+        padding: .3rem 0;
+    }
+    
+    .box1 h4 {
+        font-size: .75%;
+        padding: 1rem 0;
+    }
+    .hero {
+        height: 90vh;
+        display: flex;
+        
+    }
+    .btnNative {
+        margin: 1rem 0 0 0;
+        font-size: 70%;
+        padding: 8px 20px;
+        border-radius: 15px;
+    }
+    .container{
+    
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+       
+        
+        
+        
+    }
+    .box32{
+        background-color:white;
+        border-radius: 20px;
+        filter: contrast(70%);
+        filter: saturate(180%);
+        box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.164);
+        height: 20%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .titulo{
+        font-size: 100%;
+    }
+    .descricao3{
+        font-size: 45%;
+
+    }
+    .box32 img{
+        width: 30%;
+        justify-content: center;
+        margin: auto;
+        margin-top: 3px;
+    }
+    .boxtext{
+        font-size: 50%;
+        text-align: center;
+        margin: auto;
+        margin-top: -6%;
+    }
+   
+    .heros{
+        margin: 2px;
+    }
+    .heros .noblur {
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 40px;
+        background-color: #F0DDD1;
+        border-radius: 20px;
+        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.253);
+        transition: 0.5s;
+        filter: contrast(70%);
+        filter: saturate(180%);
+    }
+    .box32{
+        background-color:white;
+        border-radius: 20px;
+        filter: contrast(70%);
+        filter: saturate(180%);
+        box-shadow: 2px 5px 21px rgba(0, 0, 0, 0.164);
+        margin: 50px;
+        width: 60vw;
+        height: 60%;
+        display: flex;
+        
+        align-items: center;
+        flex-direction: column;
+        
+    
     }
    
    
