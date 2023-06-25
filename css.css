@@ -199,16 +199,16 @@ header {
 
 .box1 {
     z-index: 10;
-    
+    position: absolute;
     top: 30%;
-  
-    
-
+    left: 7%;
+    width: 400px;
 }
 
 
+
 .box1 h1 {
-    font-size: 2.7%;
+    font-size: 2.7rem;
 }
 
 .box1 h3 {
@@ -604,11 +604,21 @@ header {
 .mmline{
     display: none;
     
+
+}
+.boxtext{
+    font-size: 90%;
+}
+.box32 img{
+    width: 20%;
+    justify-content: center;
+    margin: auto;
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
-    body{
+    *{
         overflow-x: hidden;
+        
     }
     .mmline{
         background-color: #000;
@@ -626,6 +636,9 @@ header {
         justify-content: space-around;
         
 
+    }
+    .box32 img{
+        width: 30%;
     }
 
 
@@ -710,6 +723,18 @@ header {
     .descricao3{
         font-size: 45%;
 
+    }
+    .box32 img{
+        width: 15%;
+        justify-content: center;
+        margin: auto;
+        margin-top: 3px;
+    }
+    .boxtext{
+        font-size: 70%;
+    }
+    .contatos{
+        width: 70%;
     }
    
    
