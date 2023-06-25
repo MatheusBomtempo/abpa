@@ -41,7 +41,7 @@
 
 .descricao2{
     font-size: 0.9rem;
-    text-align: center;
+    text-align: justify;
 }
 
 .descricao3{
@@ -261,19 +261,25 @@ header {
     filter: saturate(180%);
 }
 
-.heros .noblur {
+ .noblur {
     z-index: 5;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px 40px;
     background-color: #F0DDD1;
     border-radius: 20px;
     box-shadow: 14px 14px 45px rgba(0, 0, 0, 0.253);
     transition: 0.5s;
     filter: contrast(70%);
     filter: saturate(180%);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.noblur p{
+    font-size: 1.6rem;
 }
 .logos{
     display: flex;
@@ -294,7 +300,7 @@ header {
     align-items: center;
     justify-content: center;
 }
-.heros .noblur button {
+.noblur button {
     margin-top: 0.5rem;
     background-color: blueviolet;
     border-radius: 20px;
@@ -306,12 +312,12 @@ header {
     font-family: epilogue, sans-serif;
 }
 
-.heros .noblur button:hover {
+ .noblur button:hover {
     box-shadow: 2px 2px 40px rgba(0, 0, 0, 0.253);
     cursor: pointer;
 }
 
-.heros .noblur button a {
+.noblur button a {
     text-decoration: none;
     color: aliceblue;
     font-size: 1.2rem;
@@ -551,6 +557,10 @@ header {
     width: 100%;
 }
 
+.pag5 main{
+    background-color: #FFFFFF;
+    padding: 40px;
+}
 
 .bg-img-1 {
     background-image: url('https://images.unsplash.com/photo-1545575439-3261931f52f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80');
@@ -664,6 +674,9 @@ header {
         width: 70%;
     }
     
+    .noblur p{
+        font-size: 1.2rem;
+    }
 
 }
 
@@ -692,35 +705,25 @@ header {
         
 
     }
-    .box32 img{
-        width: 30%;
+
+    .descricao2{
+        font-size: 0.6rem;
+        text-align: justify;
     }
+   
 
     .box32{
         width: 80%;
     }
 
+    
+    
+    .noblur p{
+        font-size: 1rem;
+    }
 
     
-    header nav ul{
-
-       
-        height: auto;
-        
-        
-       
-
-        
-     
-        
-    }
-    nav ul{
-        flex-direction: column;
-        
-        display: none;
-        width: 100%;
-        background-color: #fff;
-    }
+   
     .box1 h1 {
         font-size: 180%;
     }
@@ -786,20 +789,9 @@ header {
     .heros{
         margin: 2px;
     }
-    .heros .noblur {
-        z-index: 5;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 40px;
-        background-color: #F0DDD1;
-        border-radius: 20px;
-        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.253);
-        transition: 0.5s;
-        filter: contrast(70%);
-        filter: saturate(180%);
-    }
+ 
+
+
    
    
 }
@@ -906,30 +898,18 @@ header {
         margin-top: 3px;
     }
     .boxtext{
-        font-size: 90%;
-        text-align: center;
-        margin: auto;
-        margin-top: -6%;
+        font-size: 70%;
+
     }
    
     .heros{
         margin: 2px;
     }
-    .heros .noblur {
-        z-index: 5;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 40px;
-        background-color: #F0DDD1;
-        border-radius: 20px;
-        box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.253);
-        transition: 0.5s;
-        filter: contrast(70%);
-        filter: saturate(180%);
-    }
 
    
+   
+    .noblur p{
+        font-size: .8rem;
+    }
    
 }
