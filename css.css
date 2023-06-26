@@ -281,6 +281,11 @@ header {
 
 .noblur p{
     font-size: 1.6rem;
+    text-decoration: none;
+}
+
+.noblur a{
+    text-decoration: none;
 }
 .logos{
     display: flex;
@@ -646,7 +651,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--marronzin);
     padding: 20px;
     width: 100%;
     margin-top: 20px;
