@@ -230,6 +230,7 @@ header {
 .box1 h4 {
     font-size: .8rem;
     padding: 1rem 0;
+    width: 300px;
 }
 
 .btnNative {
@@ -500,8 +501,9 @@ header {
     }
 }
 
-.pag2 card__image--flowers2 {
-    background-image: url(fotos\campanha.jpg);
+.pag2 .card__image--flowers {
+    background-image: url(fotos/campanha.jpg);
+    background-position: top;
 }
 
 .pag2 .card__image--river {
