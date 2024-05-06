@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600;700;800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap');
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
 
 .anco:hover {
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.273);
@@ -131,7 +140,7 @@ header {
 #navbarr{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.233);
     padding: 20px;
-    background-color: #e2c0a888;
+    background-color: #05050557;
 }
 
 
@@ -179,7 +188,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(fotos/fotos\ abpa\ \(636\)\ -\ Copia.jpeg) no-repeat center center fixed;
+    background: url(depositphotos_117893952-stock-illustration-hacker-with-mask.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -214,6 +223,7 @@ header {
     top: 30%;
     left: 7%;
     width: 400px;
+    color: white;
 }
 
 
@@ -507,20 +517,20 @@ header {
 }
 
 .pag2 .card__image--flowers {
-    background-image: url(fotos/campanha.jpg);
+    background-image: url(cybersecurity-lock.jpeg);
     background-position: top;
 }
 
 .pag2 .card__image--river {
-    background-image: url(fotos/fotos\ abpa\ \(678\).jpeg);
+    background-image: url(antivirus.jpg);
 }
 
 .pag2 .card__image--record {
-    background-image: url(fotos/fotos\ abpa\ \(705\).jpeg);
+    background-image: url(vpn.jpeg);
 }
 
 .pag2 .card__image--fence {
-    background-image: url(fotos/fotos\ abpa\ \(714\).jpeg);
+    background-image: url(como-identificar-site-inseguro.png);
 }
 
 .pag2 .card__title {

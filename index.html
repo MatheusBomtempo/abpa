@@ -2,12 +2,13 @@
 <html>
 
 <head>
-	<title>ABPA</title>
+	<title>Segurança Virtual</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
 		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<script src="script.js"></script>
 
 	<link rel="stylesheet" href="./bootstrap-5.3.0-dist/css/bootstrap.min.css">
 	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
@@ -31,7 +32,7 @@
 </head>
 
 <body>
-	<nav class="navbar fixed-top navbar-expand-lg navbar-light " style="background-color: #e2c0a888; padding: 15px;">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-light " style="background-color: #5753504d; padding: 15px;" style="display: flex;">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="logo.png" alt="" width="60px"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,20 +41,20 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#inicio">Início</a>
+          <a class="nav-link active" aria-current="page" href="#inicio" style=" color: aliceblue;">Início</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#proj">Projetos</a>
+          <a class="nav-link" href="#proj"style=" color: aliceblue;">Projetos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#sobrenos">Sobre nós</a>
+          <a class="nav-link" href="#sobrenos" style=" color: aliceblue;">Sobre nós</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" href="#doacao" tabindex="-1" aria-disabled="true">Doações</a>
         </li>
 		<li class="nav-item">
 			<a class="nav-link" href="#contato" tabindex="-1" aria-disabled="true">Contato</a>
-		  </li>
+		  </li> -->
       </ul>
     </div>
   </div>
@@ -64,8 +65,8 @@
 	<main>
 		<section class="hero" id="inicio">
 
-			<div class="box1">
-				<h1>Bem-vindo a ABPA</h1>
+			<div class="box1" >
+				<h1>Bem-vindo!</h1>
 				<h3>A Assosciação Barbacenense <br> Protetora dos Animais</h3>
 				<h4>“Propagar o amor pelos animais e assegurar-lhes a proteção devida é uma obra de justiça que dignifica e merece todo o incitamento" - Clemenceau </h4>
 				<button class="btnNative"><a href="#doacao" style="text-decoration: none
@@ -74,16 +75,17 @@
 		</section>
 
 		<section class="pag2">
-			<h2 class="titulo" id="proj">Projetos</h2>
+			<h2 class="titulo" id="proj">Dicas</h2>
 			<ul class="cards">
 				<li class="cards__item">
 					<div class="card">
 						<div class="card__image card__image--fence"></div>
 						<div class="card__content">
-							<div class="card__title">Clinica Veterinaria</div>
-							<p class="card__text">Equipar e finalizar a nova clínica veterinária: Finalizar acabamentos
-								pendentes e equipar a clínica para que possamos atender melhor aos
-								animais.
+							<div class="card__title">Uso de sites confiaveis</div>
+							<p class="card__text">O protocolo HTTPS oferece uma camada adicional de segurança ao navegar na web,
+								criptografando os dados transferidos entre o navegador e o servidor. Sites que utilizam HTTPS
+								proporcionam uma experiência mais segura, protegendo informações pessoais e financeiras dos
+								usuários.
 								 </p>
 							
 						</div>
@@ -93,10 +95,10 @@
 					<div class="card">
 						<div class="card__image card__image--river"></div>
 						<div class="card__content">
-							<div class="card__title">Park Dog</div>
-							<p class="card__text">Equipar melhor o park dog atual para que os
-								animais possam brincar livremente e gastar sua energia e possam
-								interagir de forma adequada com os demais.</p>
+							<div class="card__title">Anti-vírus</div>
+							<p class="card__text">Os antivírus são essenciais para proteger os dispositivos contra vírus,
+								malware e outras ameaças cibernéticas. Eles identificam e removem programas maliciosos, mantendo
+								a segurança dos dados pessoais e a integridade do sistema operacional.</p>
 						</div>
 					</div>
 				</li>
@@ -104,11 +106,11 @@
 					<div class="card">
 						<div class="card__image card__image--record"></div>
 						<div class="card__content">
-							<div class="card__title">Parque Ecológico</div>
-							<p class="card__text">A criação de uma área para a educação Ambiental,
-								trilhas ecológicas (ecotrilhas), oficinas de arte, hotel para animais,
-								parque, brinquedos radicais, preservação da mata nativa e replantio
-								dentre outros que serão posteriormente citados.</p>
+							<div class="card__title">Uso de VPN</div>
+							<p class="card__text">O uso de uma VPN (rede privada virtual) é altamente recomendável para garantir
+								a segurança online. Ela criptografa a conexão à internet, protegendo os dados contra
+								interceptação e espionagem. Uma VPN também permite acessar conteúdo bloqueado geograficamente
+								de forma segura.</p>
 							</div>
 					</div>
 				</li>
@@ -116,9 +118,10 @@
 					<div class="card">
 						<div class="card__image card__image--flowers"></div>
 						<div class="card__content">
-							<div class="card__title">Campanha Solidária</div>
-							<p class="card__text">Precisamos vacinar os nossos animais para evitar que ocorram surtos de cinomose! 
-								Se cada um doar um pouquinho, nós conseguiremos comprar as duas caixas de vacinas que faltam. Doe o quanto couber no seu bolso, qualquer ajuda, mesmo que pequena, faz toda a diferença para nós</p>
+							<div class="card__title">Segurança de Senhas</div>
+							<p class="card__text">Manter senhas seguras é crucial para proteger contas online contra acessos não
+								autorizados. Senhas fortes e únicas dificultam a invasão por hackers e garantem a segurança
+								dos dados pessoais e financeiros armazenados nos diversos serviços online utilizados.</p>
 							</div>
 					</div>
 				</li>
@@ -168,7 +171,7 @@
 
 		</section>
 
-		<section class="pag4" id="doacao">
+		<!-- <section class="pag4" id="doacao">
 			<h2 class="titulo" id="proj">Doações</h2>
 			<h3 class="descricao3">Seja um colaborador e nos ajudem a manter nossos bichinos felizes!
 			</h3>
@@ -256,7 +259,7 @@
 						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1859.3523544795546!2d-43.785041792223005!3d-21.243555058858828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa21ff85811d381%3A0xf406ff2ef6590748!2sAssocia%C3%A7%C3%A3o%20Barbacenense%20de%20Prote%C3%A7%C3%A3o%20aos%20Animais%20-%20Canil!5e0!3m2!1spt-BR!2sbr!4v1687741208252!5m2!1spt-BR!2sbr" width="600" height="300" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					</div>
 		</section>
-		<footer>
+		<footer> -->
 			<p>Copyright ©
 				<script>document.write(new Date().getFullYear());</script> ABPA. Todos os direitos reservados.
 			</p>
